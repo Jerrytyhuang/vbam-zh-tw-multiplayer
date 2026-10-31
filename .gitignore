@@ -1,0 +1,15 @@
+# 啟動器產生的每位玩家設定與存檔
+multiplayer/P*/
+
+# 模擬器本體、ROM、BIOS、存檔
+*.exe
+*.zip
+*.gba
+*.gb
+*.gbc
+*.sav
+*.sgm
+*.bin
+
+# 翻譯對照輸出
+dump.txt
