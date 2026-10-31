@@ -13,3 +13,6 @@ multiplayer/P*/
 
 # 翻譯對照輸出
 dump.txt
+
+# 打包輸出
+dist/

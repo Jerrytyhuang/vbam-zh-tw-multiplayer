@@ -7,7 +7,22 @@
 
 在 VBA-M **2.2.3**（內建 wxWidgets 3.3.2）上測試過。
 
-## 安裝
+## 快速安裝（推薦）
+
+1. 到 [Releases](https://github.com/Jerrytyhuang/vbam-zh-tw-multiplayer/releases/latest) 下載 `vbam-zh-tw-multiplayer-v*.zip` 並解壓縮。
+2. 關閉所有 VBA-M 視窗，執行 **`安裝.bat`**。
+
+安裝程式會：
+
+- 從 VBA-M 官方 GitHub 下載 v2.2.3 並**驗證數位簽章**（安裝包本身不含模擬器）
+- 安裝到 `%LOCALAPPDATA%\Programs\VisualBoyAdvance-M`（不需要系統管理員權限）
+- 放入繁體中文翻譯與多開聯機工具
+- 把介面語言設為繁體中文（只改語言，其他設定保留，原設定檔備份為 `vbam.ini.before-zh-tw`）
+- 在桌面建立「VisualBoyAdvance-M」與「VBA-M 多開聯機」捷徑
+
+若已安裝過 VBA-M，可指定位置沿用：`安裝.bat -InstallDir "D:\VBA-M"`；不要捷徑則加 `-NoShortcut`。
+
+## 手動安裝
 
 1. 從 [VBA-M Releases](https://github.com/visualboyadvance-m/visualboyadvance-m/releases) 下載 `visualboyadvance-m-Win-x86_64.zip`，解壓縮到任一資料夾，並開啟一次讓它產生設定檔。
 2. 把這個 repo 的檔案放到 `visualboyadvance-m.exe` 所在的資料夾，結構如下：
