@@ -100,8 +100,12 @@ if ($NoShortcut) {
     $lnk = $ws.CreateShortcut((Join-Path $desktop 'VBA-M 多開聯機.lnk'))
     $lnk.TargetPath = Join-Path $mpDir '多開聯機.bat'; $lnk.WorkingDirectory = $mpDir
     $lnk.IconLocation = "$exe,0"; $lnk.Save()
+    $lnk = $ws.CreateShortcut((Join-Path $desktop 'VBA-M 網路連線.lnk'))
+    $lnk.TargetPath = Join-Path $mpDir '網路連線.bat'; $lnk.WorkingDirectory = $mpDir
+    $lnk.IconLocation = "$exe,0"; $lnk.Save()
 }
 
 Write-Host "`n安裝完成！"
 Write-Host "  開啟模擬器：$exe"
 Write-Host "  多開聯機：把 ROM 拖曳到桌面的「VBA-M 多開聯機」捷徑（或 $mpDir\多開聯機.bat）"
+Write-Host "  網路連線：把 ROM 拖曳到桌面的「VBA-M 網路連線」捷徑，雙方輸入相同配對碼"

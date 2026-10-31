@@ -20,6 +20,9 @@ $files = [ordered]@{
     'zh_TW/LC_MESSAGES/wxvbam.mo'      = 'translations\zh_TW\LC_MESSAGES\wxvbam.mo'
     'multiplayer/Start-Link.ps1'       = 'multiplayer\Start-Link.ps1'
     'multiplayer/多開聯機.bat'         = 'multiplayer\多開聯機.bat'
+    'multiplayer/Start-Online.ps1'     = 'multiplayer\Start-Online.ps1'
+    'multiplayer/P2PLink.cs'           = 'multiplayer\P2PLink.cs'
+    'multiplayer/網路連線.bat'         = 'multiplayer\網路連線.bat'
     'README.md'                        = 'README.md'
     'LICENSE'                          = 'LICENSE'
 }
